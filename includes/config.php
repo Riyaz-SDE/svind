@@ -3,6 +3,8 @@
 // SIVIND — database configuration (XAMPP defaults)
 // ---------------------------------------------------------------
 declare(strict_types=1);
+$root = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
+define('BASE_URL', $root === '' || $root === '\\' ? '' : $root);
 
 define('DB_HOST', '127.0.0.1');
 define('DB_NAME', 'sivind');

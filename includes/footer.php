@@ -39,6 +39,6 @@
     <span>ISO-grade manufacturing &middot; 24/7 service desk</span>
   </div>
 </footer>
-<script src="assets/script.js"></script>
+<script src="<?= BASE_URL; ?>/assets/script.js"></script>
 </body>
 </html>
